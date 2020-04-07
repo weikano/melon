@@ -44,7 +44,7 @@ typedef struct _object_outline_tree_t {
 	struct _object_outline_tree_t *right;
 } object_outline_tree_t;
 
-enum _nh_code {
+typedef enum _nh_code {
 	CCITTFAX,
 	DCT_0,
 	DCT_1,

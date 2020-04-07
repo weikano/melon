@@ -4,6 +4,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+#ifdef __linux__
+
+#define _GNU_SOURCE
+
+#endif /* __linux__ */
+
 #include <stdlib.h>
 #include <string.h>
 

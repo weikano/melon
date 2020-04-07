@@ -23,7 +23,7 @@ cnki_kdh(cnki_t **param)
 
 	const char key[] = KEY_KDH;
 	const int key_len = KEY_KDH_LENGTH;
-	int key_cur = 0;
+	long key_cur = 0;
 
 	char buf[(*param)->size_buf];
 
