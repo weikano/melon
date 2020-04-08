@@ -11,10 +11,14 @@
 #include <getopt.h>
 
 #include "extern.h"
+#include "version.h"
 
 int
 main(int argc, char **argv, char **envp)
 {
+	printf("Melon "VERSION"."RELEASE"."PATCH""EXTRA"\n");
+	printf("Copyright (c) 2020, yzrh <yzrh@tuta.io>\n\n");
+
 	cnki_t *param = NULL;
 
 	if (cnki_create(&param) != 0) {
